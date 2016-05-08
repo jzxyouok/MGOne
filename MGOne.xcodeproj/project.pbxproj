@@ -7,24 +7,45 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CC214E7F1CDFBFAB00EC91CC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CC214E7E1CDFBFAB00EC91CC /* main.m */; };
-		CC214E821CDFBFAB00EC91CC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CC214E811CDFBFAB00EC91CC /* AppDelegate.m */; };
-		CC214E851CDFBFAB00EC91CC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC214E841CDFBFAB00EC91CC /* ViewController.m */; };
 		CC214E881CDFBFAB00EC91CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC214E861CDFBFAB00EC91CC /* Main.storyboard */; };
 		CC214E8A1CDFBFAB00EC91CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC214E891CDFBFAB00EC91CC /* Assets.xcassets */; };
+		CC214EAC1CDFC41600EC91CC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CC214E971CDFC41600EC91CC /* AppDelegate.m */; };
+		CC214EAD1CDFC41600EC91CC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CC214E9A1CDFC41600EC91CC /* main.m */; };
+		CC214EB51CDFC5FB00EC91CC /* MGTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC214EB41CDFC5FB00EC91CC /* MGTabBarController.m */; };
+		CC214EB81CDFC61900EC91CC /* MGNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC214EB71CDFC61900EC91CC /* MGNavigationController.m */; };
+		CC214EBB1CDFC63400EC91CC /* MGHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC214EBA1CDFC63400EC91CC /* MGHomeViewController.m */; };
+		CC214EBE1CDFC64700EC91CC /* MGPersonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC214EBD1CDFC64700EC91CC /* MGPersonViewController.m */; };
+		CC214EC11CDFC65600EC91CC /* MGQuestionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC214EC01CDFC65600EC91CC /* MGQuestionViewController.m */; };
+		CC214EC41CDFC66A00EC91CC /* MGReadingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC214EC31CDFC66A00EC91CC /* MGReadingViewController.m */; };
+		CC214EC71CDFC67900EC91CC /* MGThingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC214EC61CDFC67900EC91CC /* MGThingViewController.m */; };
+		CC214ECA1CDFC7F700EC91CC /* MGConst.m in Sources */ = {isa = PBXBuildFile; fileRef = CC214EC91CDFC7F700EC91CC /* MGConst.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		CC214E7A1CDFBFAB00EC91CC /* MGOne.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MGOne.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		CC214E7E1CDFBFAB00EC91CC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		CC214E801CDFBFAB00EC91CC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		CC214E811CDFBFAB00EC91CC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		CC214E831CDFBFAB00EC91CC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		CC214E841CDFBFAB00EC91CC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		CC214E871CDFBFAB00EC91CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CC214E891CDFBFAB00EC91CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CC214E8E1CDFBFAB00EC91CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CC214E941CDFC05900EC91CC /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		CC214E961CDFC41600EC91CC /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CC214E971CDFC41600EC91CC /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CC214E9A1CDFC41600EC91CC /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CC214E9B1CDFC41600EC91CC /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		CC214EB31CDFC5FB00EC91CC /* MGTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGTabBarController.h; sourceTree = "<group>"; };
+		CC214EB41CDFC5FB00EC91CC /* MGTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGTabBarController.m; sourceTree = "<group>"; };
+		CC214EB61CDFC61900EC91CC /* MGNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGNavigationController.h; sourceTree = "<group>"; };
+		CC214EB71CDFC61900EC91CC /* MGNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGNavigationController.m; sourceTree = "<group>"; };
+		CC214EB91CDFC63400EC91CC /* MGHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGHomeViewController.h; sourceTree = "<group>"; };
+		CC214EBA1CDFC63400EC91CC /* MGHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGHomeViewController.m; sourceTree = "<group>"; };
+		CC214EBC1CDFC64700EC91CC /* MGPersonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGPersonViewController.h; sourceTree = "<group>"; };
+		CC214EBD1CDFC64700EC91CC /* MGPersonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGPersonViewController.m; sourceTree = "<group>"; };
+		CC214EBF1CDFC65600EC91CC /* MGQuestionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGQuestionViewController.h; sourceTree = "<group>"; };
+		CC214EC01CDFC65600EC91CC /* MGQuestionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGQuestionViewController.m; sourceTree = "<group>"; };
+		CC214EC21CDFC66A00EC91CC /* MGReadingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGReadingViewController.h; sourceTree = "<group>"; };
+		CC214EC31CDFC66A00EC91CC /* MGReadingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGReadingViewController.m; sourceTree = "<group>"; };
+		CC214EC51CDFC67900EC91CC /* MGThingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGThingViewController.h; sourceTree = "<group>"; };
+		CC214EC61CDFC67900EC91CC /* MGThingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGThingViewController.m; sourceTree = "<group>"; };
+		CC214EC81CDFC7F700EC91CC /* MGConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGConst.h; sourceTree = "<group>"; };
+		CC214EC91CDFC7F700EC91CC /* MGConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGConst.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,10 +78,7 @@
 		CC214E7C1CDFBFAB00EC91CC /* MGOne */ = {
 			isa = PBXGroup;
 			children = (
-				CC214E801CDFBFAB00EC91CC /* AppDelegate.h */,
-				CC214E811CDFBFAB00EC91CC /* AppDelegate.m */,
-				CC214E831CDFBFAB00EC91CC /* ViewController.h */,
-				CC214E841CDFBFAB00EC91CC /* ViewController.m */,
+				CC214EB21CDFC49900EC91CC /* Classes */,
 				CC214E7D1CDFBFAB00EC91CC /* Supporting Files */,
 			);
 			path = MGOne;
@@ -70,12 +88,221 @@
 			isa = PBXGroup;
 			children = (
 				CC214E891CDFBFAB00EC91CC /* Assets.xcassets */,
-				CC214E861CDFBFAB00EC91CC /* Main.storyboard */,
 				CC214E8E1CDFBFAB00EC91CC /* Info.plist */,
-				CC214E941CDFC05900EC91CC /* PrefixHeader.pch */,
-				CC214E7E1CDFBFAB00EC91CC /* main.m */,
+				CC214E861CDFBFAB00EC91CC /* Main.storyboard */,
 			);
-			name = "Supporting Files";
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CC214E951CDFC41600EC91CC /* Other-其它 */ = {
+			isa = PBXGroup;
+			children = (
+				CC214E981CDFC41600EC91CC /* Category */,
+				CC214E991CDFC41600EC91CC /* Controller */,
+				CC214E961CDFC41600EC91CC /* AppDelegate.h */,
+				CC214E971CDFC41600EC91CC /* AppDelegate.m */,
+				CC214E9B1CDFC41600EC91CC /* PrefixHeader.pch */,
+				CC214E9A1CDFC41600EC91CC /* main.m */,
+				CC214EC81CDFC7F700EC91CC /* MGConst.h */,
+				CC214EC91CDFC7F700EC91CC /* MGConst.m */,
+			);
+			path = "Other-其它";
+			sourceTree = "<group>";
+		};
+		CC214E981CDFC41600EC91CC /* Category */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		CC214E991CDFC41600EC91CC /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CC214EB31CDFC5FB00EC91CC /* MGTabBarController.h */,
+				CC214EB41CDFC5FB00EC91CC /* MGTabBarController.m */,
+				CC214EB61CDFC61900EC91CC /* MGNavigationController.h */,
+				CC214EB71CDFC61900EC91CC /* MGNavigationController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		CC214E9C1CDFC41600EC91CC /* Person-个人 */ = {
+			isa = PBXGroup;
+			children = (
+				CC214E9D1CDFC41600EC91CC /* Controller */,
+				CC214E9E1CDFC41600EC91CC /* Model */,
+				CC214E9F1CDFC41600EC91CC /* View */,
+			);
+			path = "Person-个人";
+			sourceTree = "<group>";
+		};
+		CC214E9D1CDFC41600EC91CC /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CC214EBC1CDFC64700EC91CC /* MGPersonViewController.h */,
+				CC214EBD1CDFC64700EC91CC /* MGPersonViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		CC214E9E1CDFC41600EC91CC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CC214E9F1CDFC41600EC91CC /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CC214EA01CDFC41600EC91CC /* Question-问题 */ = {
+			isa = PBXGroup;
+			children = (
+				CC214EA11CDFC41600EC91CC /* Controller */,
+				CC214EA21CDFC41600EC91CC /* Model */,
+				CC214EA31CDFC41600EC91CC /* View */,
+			);
+			path = "Question-问题";
+			sourceTree = "<group>";
+		};
+		CC214EA11CDFC41600EC91CC /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CC214EBF1CDFC65600EC91CC /* MGQuestionViewController.h */,
+				CC214EC01CDFC65600EC91CC /* MGQuestionViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		CC214EA21CDFC41600EC91CC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CC214EA31CDFC41600EC91CC /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CC214EA41CDFC41600EC91CC /* Reading-文章 */ = {
+			isa = PBXGroup;
+			children = (
+				CC214EA51CDFC41600EC91CC /* Controller */,
+				CC214EA61CDFC41600EC91CC /* Model */,
+				CC214EA71CDFC41600EC91CC /* View */,
+			);
+			path = "Reading-文章";
+			sourceTree = "<group>";
+		};
+		CC214EA51CDFC41600EC91CC /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CC214EC21CDFC66A00EC91CC /* MGReadingViewController.h */,
+				CC214EC31CDFC66A00EC91CC /* MGReadingViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		CC214EA61CDFC41600EC91CC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CC214EA71CDFC41600EC91CC /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CC214EA81CDFC41600EC91CC /* Thing-东西 */ = {
+			isa = PBXGroup;
+			children = (
+				CC214EA91CDFC41600EC91CC /* Controller */,
+				CC214EAA1CDFC41600EC91CC /* Model */,
+				CC214EAB1CDFC41600EC91CC /* View */,
+			);
+			path = "Thing-东西";
+			sourceTree = "<group>";
+		};
+		CC214EA91CDFC41600EC91CC /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CC214EC51CDFC67900EC91CC /* MGThingViewController.h */,
+				CC214EC61CDFC67900EC91CC /* MGThingViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		CC214EAA1CDFC41600EC91CC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CC214EAB1CDFC41600EC91CC /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CC214EAE1CDFC41D00EC91CC /* Home-首页 */ = {
+			isa = PBXGroup;
+			children = (
+				CC214EAF1CDFC41D00EC91CC /* Controller */,
+				CC214EB01CDFC41D00EC91CC /* Model */,
+				CC214EB11CDFC41D00EC91CC /* View */,
+			);
+			path = "Home-首页";
+			sourceTree = "<group>";
+		};
+		CC214EAF1CDFC41D00EC91CC /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CC214EB91CDFC63400EC91CC /* MGHomeViewController.h */,
+				CC214EBA1CDFC63400EC91CC /* MGHomeViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		CC214EB01CDFC41D00EC91CC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CC214EB11CDFC41D00EC91CC /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CC214EB21CDFC49900EC91CC /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				CC214EAE1CDFC41D00EC91CC /* Home-首页 */,
+				CC214E9C1CDFC41600EC91CC /* Person-个人 */,
+				CC214EA01CDFC41600EC91CC /* Question-问题 */,
+				CC214EA41CDFC41600EC91CC /* Reading-文章 */,
+				CC214EA81CDFC41600EC91CC /* Thing-东西 */,
+				CC214E951CDFC41600EC91CC /* Other-其它 */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -148,9 +375,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CC214E851CDFBFAB00EC91CC /* ViewController.m in Sources */,
-				CC214E821CDFBFAB00EC91CC /* AppDelegate.m in Sources */,
-				CC214E7F1CDFBFAB00EC91CC /* main.m in Sources */,
+				CC214EAD1CDFC41600EC91CC /* main.m in Sources */,
+				CC214EC41CDFC66A00EC91CC /* MGReadingViewController.m in Sources */,
+				CC214EAC1CDFC41600EC91CC /* AppDelegate.m in Sources */,
+				CC214EB51CDFC5FB00EC91CC /* MGTabBarController.m in Sources */,
+				CC214EBB1CDFC63400EC91CC /* MGHomeViewController.m in Sources */,
+				CC214ECA1CDFC7F700EC91CC /* MGConst.m in Sources */,
+				CC214EC11CDFC65600EC91CC /* MGQuestionViewController.m in Sources */,
+				CC214EC71CDFC67900EC91CC /* MGThingViewController.m in Sources */,
+				CC214EB81CDFC61900EC91CC /* MGNavigationController.m in Sources */,
+				CC214EBE1CDFC64700EC91CC /* MGPersonViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -163,6 +397,7 @@
 				CC214E871CDFBFAB00EC91CC /* Base */,
 			);
 			name = Main.storyboard;
+			path = .;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -253,7 +488,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				INFOPLIST_FILE = MGOne/Info.plist;
+				GCC_PREFIX_HEADER = "MGOne/Classes/Other-其它/PrefixHeader.pch";
+				INFOPLIST_FILE = "MGOne/Supporting Files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mg.MGOne;
@@ -266,7 +502,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				INFOPLIST_FILE = MGOne/Info.plist;
+				GCC_PREFIX_HEADER = "MGOne/Classes/Other-其它/PrefixHeader.pch";
+				INFOPLIST_FILE = "MGOne/Supporting Files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mg.MGOne;
